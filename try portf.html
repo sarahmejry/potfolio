@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #e9ecef;
+        }
+
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        h2, h3 {
+            color: #333;
+        }
+
+        nav {
+            margin: 20px 0;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #ffcc00; /* Gold color on hover */
+        }
+
+        #main {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        #about, #experience, #skills, #qualities {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            padding: 20px;
+        }
+
+        #about h2, #experience h2, #skills h2, #qualities h2 {
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 10px;
+        }
+
+        #contact-info {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        #contact-info p {
+            margin: 0 10px;
+        }
+
+        img {
+            float: left; 
+            margin-right: 10px; 
+            border-radius: 50%; /* Circular image */
+        }
+
+        footer {
+            margin-top: 20px;
+            padding: 10px;
+            text-align: center;
+            background-color: #333;
+            color: white;
+        }
+
+        footer h3 {
+            margin: 10px 0;
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Mon Portfolio</h1>
+        <h2>Sarah Mejry</h2>
+        <nav>
+            <a href="#about">Profil</a>
+            <a href="#contact">Contact</a>
+            <a href="#experience">Expérience</a>
+            <a href="#skills">Compétences</a>
+            <a href="#qualities">Qualités</a>
+        </nav>
+    </header>    
+
+    <div id="main">
+        <div id="about">
+            <div id="contact-info">
+                <p>
+                    <img src="iconemail.png" alt="icone" style="width: 20px; height: 16px;"> 
+                    Email: syramejry@gmail.com
+                </p>
+                <span style="margin: 0 10px;">|</span>
+                <p>
+                    <img src="iconeph.png" alt="icone" style="width: 12px; height: 12px;"> 
+                    Téléphone: 53464819
+                </p>
+            </div>
+            <p>Adresse: SILIANA centre, 6100</p>
+            <img src="myimage.jfif" alt="c'est ma photo" width="100" height="100">
+            <div style="clear: both;"></div>
+            <hr>
+            <h2>Profil</h2>
+            <p>Je suis une étudiante en 2A à l'ESPRIT (IT).</p>
+        </div>
+
+        <div id="experience">
+            <h2>Expérience(s)</h2>
+            <h3>Éducation</h3>
+            <ol>
+                <li>Collège Pilote Siliana (3 ans)</li> 
+                <li>Lycée 2 Mars: Section Math</li>
+                <li>Cycle Ingénieur à l'ESPRIT - présent</li>
+            </ol>
+            <h3>Vie associative</h3>
+            <p>Depuis 2019/20</p>
+            <ul>
+                <li>Sécrétaire au Pilote Siliana Youth Club</li>
+                <li>Directrice de communication au Pilote Siliana Youth Club</li>
+                <p>Mon portfolio pour ce mandat:
+                    <a href="https://drive.google.com/drive/folders/1-8wudK25JN54HBgGxapQtv6FAuScLpTs?usp=sharing" target="_blank">Cliquez pour voir le document</a>
+                </p>
+                <li>Directrice régionale de communication en YC Zone Nord-Ouest</li>
+                <li>Membre senior YC</li>
+                <li>Membre au BIL LPS</li>
+                <li>Fondatrice TIMUN Siliana</li>
+                <li>Autres...</li>
+            </ul>
+        </div>
+
+        <div id="skills">
+            <h2>Compétences</h2>
+            <ul>
+                <li>Design graphique</li>
+                <li>Gestion d'équipe et Leadership</li>
+                <li>Jouer de la musique</li>
+                <li>Autres...</li>
+            </ul>
+        </div>
+
+        <div id="qualities">
+            <h2>Qualités</h2>
+            <ul>
+                <li>Responsable</li>
+                <li>Esprit critique</li>
+                <li>Ponctuelle</li>
+                <li>Autres...</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <div id="contact"> 
+            <h3>Contact</h3>
+            <p>Email: syramejry@gmail.com</p>
+            <p>Téléphone: 53464819</p>
+        </div>
+        <p>&copy; 2024 Sarah Mejry. Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>
